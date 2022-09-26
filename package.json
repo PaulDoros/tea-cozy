@@ -5,7 +5,9 @@
     "build": "remix build",
     "dev": "remix dev",
     "start": "remix-serve build",
-    "watch:css": "tailwindcss -i app/styles/index.css -o app/styles/tailwind.css --watch"
+    "watch:css": "tailwindcss -i app/styles/index.css -o app/styles/tailwind.css --watch",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@remix-run/node": "^1.7.0",
