@@ -1,0 +1,15 @@
+.nav-bar {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    
+    height: 50px;
+}
+
+.nav-text {
+    display: flex;
+    flex-direction: column;
+}

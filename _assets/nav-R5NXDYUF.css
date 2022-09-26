@@ -1,0 +1,5 @@
+.nav-bar {
+    display: flex;
+    background-color: red;
+    size: 100vw;
+}

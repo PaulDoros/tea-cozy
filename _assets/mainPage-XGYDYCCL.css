@@ -1,0 +1,86 @@
+.image1 {
+    position: relative;
+    margin: 20px;
+}
+
+.image1 img {
+    width: 100%;
+}
+
+.image1 h2  {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    padding-top: 10px;
+}   
+
+.image1 h4  {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+    height: 40px;
+}    
+
+.image2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+.image2-image {
+    margin-top: 20px;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image2-image img {
+    max-width: 300px;
+    max-height: 200px;
+}
+        
+
+.location  {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    height: 500px;
+    background-image: url("/images/img-locations-background.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.big-box {
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.box { 
+    
+    width: 300px; 
+    background-color: black;
+}
+    
+.box h2 p {
+    margin: 10xp;
+}   
+

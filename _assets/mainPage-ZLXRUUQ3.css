@@ -1,0 +1,44 @@
+.image1 {
+    position: relative;
+}
+
+.image1 img {
+    width: 90vw;
+}
+
+.image1 h2  {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 91vw;
+    height: 40px;
+    background-color: black;
+    padding-top: 10px;
+}   
+
+.image1 h4  {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 91vw;
+    background-color: black;
+    margin-top: 10px;
+    height: 40px;
+}    
+
+.image2 {
+    display: flex;
+    align-items: center;
+}
+
+.image2-image {
+    max-width: 1000px;
+}
+
+.image2-image img {
+    max-width: 300px;
+    max-height: 200px;
+}
+        

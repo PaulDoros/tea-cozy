@@ -1,0 +1,19 @@
+.nav-bar {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.nav-text {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 10px;
+}

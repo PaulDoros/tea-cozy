@@ -1,0 +1,30 @@
+.image1 {
+    position: relative;
+}
+
+.image1 img {
+    width: 90vw;
+}
+
+.image1 h2  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 91vw;
+    height: 40px;
+    background-color: black;
+    padding-top: 20px;
+}   
+
+.image1 h4  {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 91vw;
+    background-color: black;
+    margin-top: 10px;
+    height: 40px;
+}    
+        

@@ -1,0 +1,59 @@
+.image1 {
+    position: relative;
+}
+
+.image1 img {
+    width: 90vw;
+}
+
+.image1 h2  {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 91vw;
+    height: 40px;
+    background-color: black;
+    padding-top: 10px;
+}   
+
+.image1 h4  {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 91vw;
+    background-color: black;
+    margin-top: 10px;
+    height: 40px;
+}    
+
+.image2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+.image2-image {
+    margin-top: 20px;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image2-image img {
+    max-width: 300px;
+    max-height: 200px;
+}
+        
+
+.location  {
+    width: 90vw;
+    height: 500px;
+}

@@ -1,0 +1,9 @@
+.nav-bar {
+    background-color: red;
+    display: flex;
+}
+
+.logo {
+    
+    height: 50px;
+}
