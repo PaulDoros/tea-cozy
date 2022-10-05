@@ -1,6 +1,6 @@
 {
   "private": true,
-  "homepage": "https://pauldoros.github.io/tea-cozy",
+  "homepage": "https://pauldoros.github.io/tea-cozy/",
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
